@@ -13,8 +13,8 @@ gen-data: ## Generate files
 
 app-setup: ## Setup fvm and get Dependencies
 	dart pub global activate fvm
-	fvm install 3.10.0
-	fvm use 3.10.0
+	fvm install 3.22.2
+	fvm use 3.22.2
 
 
 pub-get: ## Clean Pub Get
